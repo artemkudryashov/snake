@@ -1,0 +1,6 @@
+D:\C#\Учёба\ООП\snake\snake\bin\Debug\snake.exe.config
+D:\C#\Учёба\ООП\snake\snake\bin\Debug\snake.exe
+D:\C#\Учёба\ООП\snake\snake\bin\Debug\snake.pdb
+D:\C#\Учёба\ООП\snake\snake\obj\Debug\snake.csprojAssemblyReference.cache
+D:\C#\Учёба\ООП\snake\snake\obj\Debug\snake.exe
+D:\C#\Учёба\ООП\snake\snake\obj\Debug\snake.pdb
