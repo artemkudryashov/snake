@@ -10,13 +10,7 @@ namespace snake
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(1,3,'*');
-            p1.Draw();
-
-            Point p2 = new Point(4,5,'#');
-            p2.Draw();
-
-            Console.SetBufferSize(80,25);
+           Console.SetBufferSize(80,25);
 
             HorizontalLine upLine = new HorizontalLine(0,78,0,'+');
             HorizontalLine downLine = new HorizontalLine(0,78,24,'+');
@@ -26,6 +20,12 @@ namespace snake
             downLine.Draw();
             leftLine.Draw();
             rightLine.Draw();
+
+
+            Point p = new Point(4, 5, '*');
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Draw();
+
             Console.ReadLine();
             
         }
